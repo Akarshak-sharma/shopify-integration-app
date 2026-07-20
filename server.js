@@ -1160,3 +1160,6 @@ app.post('/api/agent/execute-tool', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`[Shopify Integration Server] Running on http://localhost:${PORT}`);
 });
+
+module.exports = app;
+
